@@ -17,18 +17,18 @@ import React from "react";
 
 const renderTransactionRow = (row: ICustomerSchema) => (
   <React.Fragment>
-    <TableCell key={`date-${row._id}`}>
+    <TableCell key={`date-${row.id}`}>
       {format(row.signUpDate, "MMM dd, yyyy h:mm a")}
     </TableCell>
-    <TableCell key={`name-${row._id}`}>
+    <TableCell key={`name-${row.id}`}>
       {`${row.first_name} ${row.last_name}`}
     </TableCell>
-    <TableCell key={`email-${row._id}`}>{row.email}</TableCell>
-    <TableCell key={`phone-${row._id}`}>{row.phone_number}</TableCell>
-    <TableCell key={`activity-${row._id}`}>
+    <TableCell key={`email-${row.id}`}>{row.email}</TableCell>
+    <TableCell key={`phone-${row.id}`}>{row.phone_number}</TableCell>
+    <TableCell key={`activity-${row.id}`}>
       {format(row.lastActivity, "MMM dd, yyyy h:mm a")}
     </TableCell>
-    <TableCell key={`residence-${row._id}`}>{row.residence}</TableCell>
+    <TableCell key={`residence-${row.id}`}>{row.residence}</TableCell>
   </React.Fragment>
 );
 
