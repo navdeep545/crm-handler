@@ -27,7 +27,7 @@ This project is a simple Next.js web application that fetches and visualizes web
 1. Clone the repository:
    ```bash
    git clone git@github.com:kalisaNkevin/crms.git
-   cd CRMS
+   cd crm-handler
    ```
 2. Add .env.local file in the file directory:
    ```bash
