@@ -14,11 +14,6 @@ This project is a simple Next.js web application that fetches and visualizes web
 - **Detailed Visit Analysis**: Provides a graph showing trends for website visits over the past 30 days using Chart.js.
 - **CRM Data List**: Displays customer data with pagination and a search bar to filter the list of customers by name or email.
 
-## Technical Requirements
-
-- **Next.js Framework**: Used for server-side rendering and fast performance.
-- **Data Fetching**: Uses Next.js API routes or `getServerSideProps` to fetch data from the Mockaroo API.
-
 ## Setup Instructions
 
 ### Prerequisites
