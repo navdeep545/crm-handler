@@ -63,11 +63,3 @@ yarn dev
 ```
 
 2. Your application will be available at <http://localhost:3000>.
-
-### License
-
-This project is licensed under the MIT License. See the [LICENSE](https://www.mit.edu/~amini/LICENSE.md) file for details.
-
-## Author
-
-This project was initiated by [Kalisa Ngabo Kevin](kalisangabokevin.me). You can reach out to me at [kalisangabokevin@gmail.com](kalisangabokevin@gmail.com) or visit my GitHub profile at [https://github.com/kalisaNkevin](https://github.com/kalisaNkevin).
